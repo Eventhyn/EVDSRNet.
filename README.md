@@ -15,6 +15,8 @@ We have trained and evaluated our model at two Additive White Gaussian Noise (AW
 
 # Performance
 
+# Evaluate
+
 # Train
 
-# Test
+
