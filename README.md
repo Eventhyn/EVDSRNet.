@@ -24,25 +24,28 @@ Our method presents significant improvement in the trade-off between performance
 * When compared to the quality-favored solution, our method achieves similar PSNR while running significantly faster and maintaining a much smaller model size.
 
 # Model Weights
-The model weights can be downloaded from Google Drive and Baidu Netdisk:
-* Medium Model, sigma = 10 [Google](https://drive.google.com/file/d/1uSQgl6DwhmUR4MR4wnt0ZgVnuhwc3qAP/view?usp=sharing)/Baidu
-* Medium Model, sigma = 20 [Google](https://drive.google.com/file/d/11oJiXHnyJgn9EajK6cxEQqTIUNL2JHQr/view?usp=sharing)/Baidu
-* Large Model, sigma = 10 [Google](https://drive.google.com/file/d/11sw8PQBh6Gc3bFcCnNYxqVg2CEnwwOPE/view?usp=sharing)/Baidu
-* Large Model, sigma = 20 [Google](https://drive.google.com/file/d/1rxwPp7soPWnJ3qVBhSy5SUxhXsbKGlo8/view?usp=sharing)/Baidu
+The model weights can be downloaded from Google Drive:
+* Medium Model, sigma = 10 [Google](https://drive.google.com/file/d/1uSQgl6DwhmUR4MR4wnt0ZgVnuhwc3qAP/view?usp=sharing)
+* Medium Model, sigma = 20 [Google](https://drive.google.com/file/d/11oJiXHnyJgn9EajK6cxEQqTIUNL2JHQr/view?usp=sharing)
+* Large Model, sigma = 10 [Google](https://drive.google.com/file/d/11sw8PQBh6Gc3bFcCnNYxqVg2CEnwwOPE/view?usp=sharing)
+* Large Model, sigma = 20 [Google](https://drive.google.com/file/d/1rxwPp7soPWnJ3qVBhSy5SUxhXsbKGlo8/view?usp=sharing)
 
 # Evaluate
 We provide scripts for evaluating our model's performance, the example running command is as follows:
 ```
 python test_udm.py --dataset_path D:\\Source_code\\Joint_DenoiseSR\\udm10 --txt_path D:\\Source_code\\Joint_DenoiseSR\\udm10 --model_size medium --sigma 10
 ```
+```
+python test_davis.py --dataset_path D:\\Source_code\\Joint_DenoiseSR\\DAVIS-2017-test-dev-480p\\DAVIS\\JPEGImages\\480p --txt_path D:\\Source_code\\Joint_DenoiseSR\\DAVIS-2017-test-dev-480p\\DAVIS --model_size medium --sigma 10
+```
 * dataset_path: The directory where you put the testing dataset
 * txt_path: The directory where you put the dataset information prepared for testing
 * model_size: medium or large
 * sigma: 10 or 20
 
-The prepared txt file used in testing can also be downloaded from Google Drive or BaiduNetdisk:
+The prepared txt file used in testing can also be downloaded from Google Drive:
 
-* UDM: [Google](https://drive.google.com/file/d/19kamnkc7907dgGpXtgKRXG9Id52z-mrS/view?usp=sharing)/Baidu
-
+* UDM: [Google](https://drive.google.com/file/d/19kamnkc7907dgGpXtgKRXG9Id52z-mrS/view?usp=sharing)
+* Davis [Google](https://drive.google.com/file/d/1bvUus3UjXysoDxLokIggufkMDrSWyADD/view?usp=sharing)
 # Train
 Will be released soon
