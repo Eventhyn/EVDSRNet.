@@ -9,7 +9,9 @@ The trade-off between the performance and computation cost is parameterized by N
 
 Our medium model adopts N_b = 8 and N_c = 128 where large model adopts N_b = 16 and N_c = 256.
 
-Besides, our method operates in a non-blind manner, which means the level of noise is fixed for a specific model. We have trained and evaluated our model at two Additive White Gaussian Noise (AWGN) levels: sigma = 10 and sigma = 20.
+Besides, our method operates in a non-blind manner, which means the level of noise is fixed for a specific model. 
+
+We have trained and evaluated our model at two Additive White Gaussian Noise (AWGN) levels: sigma = 10 and sigma = 20.
 
 # Performance
 
