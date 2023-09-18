@@ -40,9 +40,9 @@ python test_udm.py --dataset_path D:\\Source_code\\Joint_DenoiseSR\\udm10 --txt_
 * model_size: medium or large
 * sigma: 10 or 20
 
-The prepared txt file used in testing can also be downloaded from Google Drive or BaiduNetdisk
-UDM: [Google](https://drive.google.com/file/d/19kamnkc7907dgGpXtgKRXG9Id52z-mrS/view?usp=sharing)/Baidu
+The prepared txt file used in testing can also be downloaded from Google Drive or BaiduNetdisk:
+
+* UDM: [Google](https://drive.google.com/file/d/19kamnkc7907dgGpXtgKRXG9Id52z-mrS/view?usp=sharing)/Baidu
 
 # Train
-
-
+Will be released soon
