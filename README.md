@@ -24,8 +24,8 @@ The super-resolution methods selected are RRN and VRT-SR, where RRN is an effici
 For straightforward solutions, we combine FastDVDNet+RRN as an efficient solution and VRT-De+VRT-SR as a quality-favored solution.
 
 Our method presents significant improvement in the trade-off between performance and computation cost compared to straightforward solutions: 
-⋅⋅* Unordered sub-list. When compared to the efficient solution, our method achieves better PSNR and faster running speed while maintaining similar model sizes. 
-⋅⋅* Unordered sub-list. When compared to the quality-favored solution, our method achieves similar PSNR while running significantly faster and maintaining a much smaller model size.
+* Unordered sub-list. When compared to the efficient solution, our method achieves better PSNR and faster running speed while maintaining similar model sizes. 
+* Unordered sub-list. When compared to the quality-favored solution, our method achieves similar PSNR while running significantly faster and maintaining a much smaller model size.
 
 
 # Evaluate
