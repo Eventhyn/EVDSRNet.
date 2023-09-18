@@ -25,10 +25,10 @@ Our method presents significant improvement in the trade-off between performance
 
 # Model Weights
 The model weights can be downloaded from Google Drive and Baidu Netdisk:
-* Medium Model, sigma = 10 Google/Baidu
-* Medium Model, sigma = 20 Google/Baidu
-* Large Model, sigma = 10 Google/Baidu
-* Large Model, sigma = 20 Google/Baidu
+* Medium Model, sigma = 10 [Google](https://drive.google.com/file/d/1uSQgl6DwhmUR4MR4wnt0ZgVnuhwc3qAP/view?usp=sharing)/Baidu
+* Medium Model, sigma = 20 [Google](https://drive.google.com/file/d/11oJiXHnyJgn9EajK6cxEQqTIUNL2JHQr/view?usp=sharing)/Baidu
+* Large Model, sigma = 10 [Google](https://drive.google.com/file/d/11sw8PQBh6Gc3bFcCnNYxqVg2CEnwwOPE/view?usp=sharing)/Baidu
+* Large Model, sigma = 20 [Google](https://drive.google.com/file/d/1rxwPp7soPWnJ3qVBhSy5SUxhXsbKGlo8/view?usp=sharing)/Baidu
 
 # Evaluate
 
