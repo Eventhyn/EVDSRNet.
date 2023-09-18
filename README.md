@@ -48,4 +48,7 @@ The prepared txt file used in testing can also be downloaded from Google Drive:
 * UDM: [Google](https://drive.google.com/file/d/19kamnkc7907dgGpXtgKRXG9Id52z-mrS/view?usp=sharing)
 * Davis [Google](https://drive.google.com/file/d/1bvUus3UjXysoDxLokIggufkMDrSWyADD/view?usp=sharing)
 # Train
-Will be released soon
+We have adopted the DAVIS2017 training split as our training dataset, the training patches are extracted from an original split of DAVIS, which contains randomly cropped 7 consecutive frames of 256x256 spatial resolution. The pre-processing script is also provided, see data_prepare.py.
+
+Following are example procedures for training our model:
+
