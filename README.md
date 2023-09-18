@@ -15,7 +15,7 @@ We have trained and evaluated our model at two Additive White Gaussian Noise (AW
 
 # Performance
 ![alt text](images/Performance.png)
-Since there is no joint super-resolution and denoising model for video input at the time when the paper is written. We chose a straightforward solution to set the baseline comparison for our method: Denoise-then-SR.
+Since there is no joint super-resolution and denoising model for video input at the time when the paper is written, we chose a straightforward solution to set the baseline comparison for our method: Denoise-then-SR.
 
 The denoising methods selected are FastDVDNet and VRT-De, where FastDVDNet is an efficient solution that balances between performance and computation cost and VRT-De is the best method in terms of reconstruction quality at the time.
 
