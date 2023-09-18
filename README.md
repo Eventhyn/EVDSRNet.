@@ -31,7 +31,8 @@ The model weights can be downloaded from Google Drive and Baidu Netdisk:
 * Large Model, sigma = 20 [Google](https://drive.google.com/file/d/1rxwPp7soPWnJ3qVBhSy5SUxhXsbKGlo8/view?usp=sharing)/Baidu
 
 # Evaluate
-
+We provide scripts for evaluating our model's performance, the example running command is as follows:
+python test_udm.py --dataset_path D:\\Source_code\\Joint_DenoiseSR\\udm10 --txt_path D:\\Source_code\\Joint_DenoiseSR\\udm10 --model_size medium --sigma 10
 # Train
 
 
