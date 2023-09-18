@@ -32,7 +32,14 @@ The model weights can be downloaded from Google Drive and Baidu Netdisk:
 
 # Evaluate
 We provide scripts for evaluating our model's performance, the example running command is as follows:
+```
 python test_udm.py --dataset_path D:\\Source_code\\Joint_DenoiseSR\\udm10 --txt_path D:\\Source_code\\Joint_DenoiseSR\\udm10 --model_size medium --sigma 10
+```
+* dataset_path: The directory where you put the testing dataset
+* txt_path: The directory where you put the dataset information prepared for testing
+* model_size: medium or large
+* sigma: 10 or 20
+
 # Train
 
 
