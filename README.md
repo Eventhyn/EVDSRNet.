@@ -23,6 +23,12 @@ Our method presents significant improvement in the trade-off between performance
 * When compared to the efficient solution, our method achieves better PSNR and faster running speed while maintaining similar model sizes. 
 * When compared to the quality-favored solution, our method achieves similar PSNR while running significantly faster and maintaining a much smaller model size.
 
+# Model Weights
+The model weights can be downloaded from Google Drive and Baidu Netdisk:
+* Medium Model, sigma = 10 Google/Baidu
+* Medium Model, sigma = 20 Google/Baidu
+* Large Model, sigma = 10 Google/Baidu
+* Large Model, sigma = 20 Google/Baidu
 
 # Evaluate
 
