@@ -2,7 +2,7 @@
 This is the official implementation of the paper "EFFICIENT JOINT VIDEO DENOISING AND SUPER-RESOLUTION" which is accepted at IEEE ICIP2023. The paper can be officially viewed at [IEEE Xplore](https://www.google.com).
 
 # Overall structure
-![alt text](images/Architecture.png "Logo Title Text 1")
+![alt text](images/Architecture.png)
 In this paper, we present two versions of our proposed method, one is noted as medium and another is noted as large. 
 
 The trade-off between the performance and computation cost is parameterized by N_b and N_c where N_b is the number of blocks in the super-resolution network and N_c is the feature dimension of these blocks. 
@@ -14,6 +14,7 @@ Besides, our method operates in a non-blind manner, which means the level of noi
 We have trained and evaluated our model at two Additive White Gaussian Noise (AWGN) levels: sigma = 10 and sigma = 20.
 
 # Performance
+![alt text](images/Performance.png)
 
 # Evaluate
 
