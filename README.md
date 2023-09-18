@@ -4,7 +4,9 @@ This is the official implementation of the paper "EFFICIENT JOINT VIDEO DENOISIN
 # Overall structure
 ![alt text](images/Architecture.png "Logo Title Text 1")
 In this paper, we present two versions of our proposed method, one is noted as medium and another is noted as large. 
+
 The trade-off between the performance and computation cost is parameterized by N_b and N_c where N_b is the number of blocks in the super-resolution network and N_c is the feature dimension of these blocks. 
+
 Our medium model adopts N_b = 8 and N_c = 128 where large model adopts N_b = 16 and N_c = 256.
 
 # Performance
