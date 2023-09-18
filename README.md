@@ -3,4 +3,8 @@ This is the official implementation of the paper "EFFICIENT JOINT VIDEO DENOISIN
 
 # Overall structure
 
+# Performance
 
+# Train
+
+# Test
