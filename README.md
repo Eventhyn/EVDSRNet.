@@ -51,4 +51,11 @@ The prepared txt file used in testing can also be downloaded from Google Drive:
 We have adopted the DAVIS2017 training split as our training dataset, the training patches are extracted from an original split of DAVIS, which contains randomly cropped 7 consecutive frames of 256x256 spatial resolution. The pre-processing script is also provided, see data_prepare.py.
 
 Following are example procedures for training our model:
-
+```
+python data_prepare.py
+```
+* Make sure you check and change the directory of the Davis dataset as well as the output training patches directory inside the data_prepare.py
+```
+python train_eval.py --dataset_path /yuning/Denoise/DAVIS/JPEGImages/crop --txt_path /yuning/Denoise/ --im_size 256 -bs 32 --cuda -lr 1e-4 -nw 4
+```
+* The example training code involves Wandb as a training metric monitoring library, if not wanted, please comment out the relevant code.
