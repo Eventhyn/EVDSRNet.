@@ -56,6 +56,10 @@ python data_prepare.py
 ```
 * Make sure you check and change the directory of the Davis dataset as well as the output training patches directory inside the data_prepare.py
 ```
+mkdir models
+```
 python train_eval.py --dataset_path /yuning/Denoise/DAVIS/JPEGImages/crop --txt_path /yuning/Denoise/ --im_size 256 -bs 32 --cuda -lr 1e-4 -nw 4
 ```
 * The example training code involves Wandb as a training metric monitoring library, if not wanted, please comment out the relevant code.
+* You need to manually set the location for model weights to be loaded and saved, it is by default in \models directory
+
